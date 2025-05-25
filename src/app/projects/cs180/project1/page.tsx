@@ -4,7 +4,7 @@ export default function Project1() {
     return (
         <>
             <title>CS 180 Project 1</title>
-            <div className="font-sans m-5 max-w-[1000px] mx-auto">
+            <div className="font-sans m-5 max-w-[1000px] mx-auto space-y-2 px-8">
                 <h1 className="text-4xl font-bold">CS 180 Project 1</h1>
                 <p>Name: Brandon Wong</p>
                 <div className="h-2 invisible"></div>
@@ -83,7 +83,7 @@ export default function Project1() {
                 <div className="h-2 invisible"></div>
                 <h2 className="text-2xl font-bold">Images</h2>
                 <div>
-                    <div className="float-left h-[600px] w-1/2">
+                    <div className="float-left h-[500px] w-1/2">
                         <Image src="/cs180project1media/cathedral.jpg" alt="cathedral" width={490} height={100} style={{ width: '490px', height: 'auto' }} />
                         <p>
                             Red Offset: (12, 5)
@@ -92,7 +92,7 @@ export default function Project1() {
                             Blue Offset: (5, 5)
                         </p>
                     </div>
-                    <div className="float-left h-[600px] w-1/2">
+                    <div className="float-left h-[500px] w-1/2">
                         <Image src="/cs180project1media/monastery.jpg" alt="monastery" width={490} height={100} style={{ width: '490px', height: 'auto' }} />
                         <p>
                             Red Offset: (7, 5)
@@ -103,7 +103,7 @@ export default function Project1() {
                     </div>
                 </div>
                 <div>
-                    <div className="float-left h-[600px] w-1/2">
+                    <div className="float-left h-[500px] w-1/2">
                         <Image src="/cs180project1media/tobolsk.jpg" alt="tobolsk" width={490} height={100} style={{ width: '490px', height: 'auto' }} />
                         <p>
                             Red Offset: (5, 5)
@@ -112,7 +112,7 @@ export default function Project1() {
                             Blue Offset: (4, 2)
                         </p>
                     </div>
-                    <div className="float-left h-[600px] w-1/2">
+                    <div className="float-left h-[500px] w-1/2">
                         <Image src="/cs180project1media/harvesters.jpg" alt="harvesters" width={490} height={100} style={{ width: '490px', height: 'auto' }} />
                         <p>
                             Red Offset: (20, -4)
@@ -123,7 +123,7 @@ export default function Project1() {
                     </div>
                 </div>
                 <div>
-                    <div className="float-left h-[600px] w-1/2">
+                    <div className="float-left h-[500px] w-1/2">
                         <Image src="/cs180project1media/icon.jpg" alt="icon" width={490} height={100} style={{ width: '490px', height: 'auto' }} />
                         <p>
                             Red Offset: (0, 4)
@@ -132,7 +132,7 @@ export default function Project1() {
                             Blue Offset: (0, -16)
                         </p>
                     </div>
-                    <div className="float-left h-[600px] w-1/2">
+                    <div className="float-left h-[500px] w-1/2">
                         <Image src="/cs180project1media/lady.jpg" alt="lady" width={490} height={100} style={{ width: '490px', height: 'auto' }} />
                         <p>
                             Red Offset: (16, 20)
@@ -143,7 +143,7 @@ export default function Project1() {
                     </div>
                 </div>
                 <div>
-                    <div className="float-left h-[600px] w-1/2">
+                    <div className="float-left h-[500px] w-1/2">
                         <Image src="/cs180project1media/melons.jpg" alt="melons" width={490} height={100} style={{ width: '490px', height: 'auto' }} />
                         <p>
                             Red Offset: (52, 0)
@@ -152,7 +152,7 @@ export default function Project1() {
                             Blue Offset: (-44, 0)
                         </p>
                     </div>
-                    <div className="float-left h-[600px] w-1/2">
+                    <div className="float-left h-[500px] w-1/2">
                         <Image src="/cs180project1media/church.jpg" alt="church" width={490} height={100} style={{ width: '490px', height: 'auto' }} />
                         <p>
                             Red Offset: (-4, -12)
@@ -163,7 +163,7 @@ export default function Project1() {
                     </div>
                 </div>
                 <div>
-                    <div className="float-left h-[600px] w-1/2">
+                    <div className="float-left h-[500px] w-1/2">
                         <Image src="/cs180project1media/onion_church.jpg" alt="onion_church" width={490} height={100} style={{ width: '490px', height: 'auto' }} />
                         <p>
                             Red Offset: (12, 8)
@@ -172,7 +172,7 @@ export default function Project1() {
                             Blue Offset: (-12, -28)
                         </p>
                     </div>
-                    <div className="float-left h-[600px] w-1/2">
+                    <div className="float-left h-[500px] w-1/2">
                         <Image src="/cs180project1media/sculpture.jpg" alt="sculpture" width={490} height={100} style={{ width: '490px', height: 'auto' }} />
                         <p>
                             Red Offset: (64, -16)
@@ -183,7 +183,7 @@ export default function Project1() {
                     </div>
                 </div>
                 <div>
-                    <div className="float-left h-[600px] w-1/2">
+                    <div className="float-left h-[500px] w-1/2">
                         <Image src="/cs180project1media/self_portrait.jpg" alt="self_portrait" width={490} height={100} style={{ width: '490px', height: 'auto' }} />
                         <p>
                             Red Offset: (0, 0)
@@ -192,7 +192,7 @@ export default function Project1() {
                             Blue Offset: (-8, 8)
                         </p>
                     </div>
-                    <div className="float-left h-[600px] w-1/2">
+                    <div className="float-left h-[500px] w-1/2">
                         <Image src="/cs180project1media/three_generations.jpg" alt="three_generations" width={490} height={100} style={{ width: '490px', height: 'auto' }} />
                         <p>
                             Red Offset: (20, 0)
@@ -203,7 +203,7 @@ export default function Project1() {
                     </div>
                 </div>
                 <div>
-                    <div className="float-left h-[600px] w-1/2">
+                    <div className="float-left h-[500px] w-1/2">
                         <Image src="/cs180project1media/emir.jpg" alt="emir" width={490} height={100} style={{ width: '490px', height: 'auto' }} />
                         <p>
                             Red Offset: (0, 16)
@@ -212,7 +212,7 @@ export default function Project1() {
                             Blue Offset: (0, -20)
                         </p>
                     </div>
-                    <div className="float-left h-[600px] w-1/2">
+                    <div className="float-left h-[500px] w-1/2">
                         <Image src="/cs180project1media/train.jpg" alt="train" width={490} height={100} style={{ width: '490px', height: 'auto' }} />
                         <p>
                             Red Offset: (32, 0)
